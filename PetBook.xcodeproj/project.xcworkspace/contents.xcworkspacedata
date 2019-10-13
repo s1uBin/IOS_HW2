@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DemoBook.xcodeproj">
+      location = "self:/Users/user/Downloads/DemoBook/PetBook.xcodeproj">
    </FileRef>
 </Workspace>

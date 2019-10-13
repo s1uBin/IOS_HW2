@@ -7,23 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B29BCF32344593400479BE4 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29BCF22344593400479BE4 /* AppView.swift */; };
 		9BCE99B6233B079E00E8DD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */; };
 		9BCE99B8233B079E00E8DD62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */; };
-		9BCE99BA233B079E00E8DD62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B9233B079E00E8DD62 /* ContentView.swift */; };
 		9BCE99BC233B07A100E8DD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99BB233B07A100E8DD62 /* Assets.xcassets */; };
 		9BCE99BF233B07A100E8DD62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99BE233B07A100E8DD62 /* Preview Assets.xcassets */; };
 		9BCE99C2233B07A100E8DD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99C0233B07A100E8DD62 /* LaunchScreen.storyboard */; };
+		9BCE99D0233B2B3800E8DD62 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99CF233B2B3800E8DD62 /* Data.swift */; };
+		CE050C6B234DBD0000EF99E8 /* CatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE050C6A234DBD0000EF99E8 /* CatList.swift */; };
+		CE050C6D234DBD3F00EF99E8 /* CatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE050C6C234DBD3F00EF99E8 /* CatRow.swift */; };
+		CE050C6F234DBF7000EF99E8 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE050C6E234DBF7000EF99E8 /* Pet.swift */; };
+		CE050C71234DC44300EF99E8 /* CatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE050C70234DC44300EF99E8 /* CatDetail.swift */; };
+		CE2CA9A3234E03AB0026B4B0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CA9A2234E03AB0026B4B0 /* Home.swift */; };
+		CE2CA9A5234E0AC00026B4B0 /* RabbitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CA9A4234E0AC00026B4B0 /* RabbitRow.swift */; };
+		CE2CA9A7234E0AD20026B4B0 /* RabbitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CA9A6234E0AD20026B4B0 /* RabbitList.swift */; };
+		CE2CA9A9234E0AEA0026B4B0 /* RabbitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2CA9A8234E0AEA0026B4B0 /* RabbitDetail.swift */; };
+		CE3FB0DF2351B7A30031C2FB /* CatHobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FB0DE2351B7A30031C2FB /* CatHobby.swift */; };
+		CE3FB0E12351C3B80031C2FB /* RabbitHobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FB0E02351C3B80031C2FB /* RabbitHobby.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BCE99B2233B079E00E8DD62 /* DemoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B29BCF22344593400479BE4 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		9BCE99B2233B079E00E8DD62 /* PetBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BCE99B9233B079E00E8DD62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BCE99BB233B07A100E8DD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BCE99BE233B07A100E8DD62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BCE99C1233B07A100E8DD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCE99C3233B07A100E8DD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCE99CF233B2B3800E8DD62 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CE050C6A234DBD0000EF99E8 /* CatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatList.swift; sourceTree = "<group>"; };
+		CE050C6C234DBD3F00EF99E8 /* CatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRow.swift; sourceTree = "<group>"; };
+		CE050C6E234DBF7000EF99E8 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		CE050C70234DC44300EF99E8 /* CatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetail.swift; sourceTree = "<group>"; };
+		CE2CA9A2234E03AB0026B4B0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CE2CA9A4234E0AC00026B4B0 /* RabbitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitRow.swift; sourceTree = "<group>"; };
+		CE2CA9A6234E0AD20026B4B0 /* RabbitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitList.swift; sourceTree = "<group>"; };
+		CE2CA9A8234E0AEA0026B4B0 /* RabbitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitDetail.swift; sourceTree = "<group>"; };
+		CE3FB0DE2351B7A30031C2FB /* CatHobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatHobby.swift; sourceTree = "<group>"; };
+		CE3FB0E02351C3B80031C2FB /* RabbitHobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RabbitHobby.swift; sourceTree = "<group>"; };
+		CED993F42351CEE900D3E05B /* PetBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetBook.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +63,7 @@
 		9BCE99A9233B079D00E8DD62 = {
 			isa = PBXGroup;
 			children = (
+				CED993F42351CEE900D3E05B /* PetBook.entitlements */,
 				9BCE99B4233B079E00E8DD62 /* DemoBook */,
 				9BCE99B3233B079E00E8DD62 /* Products */,
 			);
@@ -48,7 +72,7 @@
 		9BCE99B3233B079E00E8DD62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BCE99B2233B079E00E8DD62 /* DemoBook.app */,
+				9BCE99B2233B079E00E8DD62 /* PetBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +82,19 @@
 			children = (
 				9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */,
 				9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */,
-				9BCE99B9233B079E00E8DD62 /* ContentView.swift */,
+				CE050C6E234DBF7000EF99E8 /* Pet.swift */,
+				CE050C6C234DBD3F00EF99E8 /* CatRow.swift */,
+				CE050C6A234DBD0000EF99E8 /* CatList.swift */,
+				CE050C70234DC44300EF99E8 /* CatDetail.swift */,
+				CE2CA9A4234E0AC00026B4B0 /* RabbitRow.swift */,
+				CE2CA9A6234E0AD20026B4B0 /* RabbitList.swift */,
+				CE2CA9A8234E0AEA0026B4B0 /* RabbitDetail.swift */,
+				9B29BCF22344593400479BE4 /* AppView.swift */,
+				CE3FB0E02351C3B80031C2FB /* RabbitHobby.swift */,
+				CE2CA9A2234E03AB0026B4B0 /* Home.swift */,
+				CE3FB0DE2351B7A30031C2FB /* CatHobby.swift */,
 				9BCE99BB233B07A100E8DD62 /* Assets.xcassets */,
+				9BCE99CF233B2B3800E8DD62 /* Data.swift */,
 				9BCE99C0233B07A100E8DD62 /* LaunchScreen.storyboard */,
 				9BCE99C3233B07A100E8DD62 /* Info.plist */,
 				9BCE99BD233B07A100E8DD62 /* Preview Content */,
@@ -78,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BCE99B1233B079E00E8DD62 /* DemoBook */ = {
+		9BCE99B1233B079E00E8DD62 /* PetBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BCE99C6233B07A100E8DD62 /* Build configuration list for PBXNativeTarget "DemoBook" */;
+			buildConfigurationList = 9BCE99C6233B07A100E8DD62 /* Build configuration list for PBXNativeTarget "PetBook" */;
 			buildPhases = (
 				9BCE99AE233B079E00E8DD62 /* Sources */,
 				9BCE99AF233B079E00E8DD62 /* Frameworks */,
@@ -90,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = DemoBook;
+			name = PetBook;
 			productName = DemoBook;
-			productReference = 9BCE99B2233B079E00E8DD62 /* DemoBook.app */;
+			productReference = 9BCE99B2233B079E00E8DD62 /* PetBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BCE99AD233B079D00E8DD62 /* Build configuration list for PBXProject "DemoBook" */;
+			buildConfigurationList = 9BCE99AD233B079D00E8DD62 /* Build configuration list for PBXProject "PetBook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BCE99B1233B079E00E8DD62 /* DemoBook */,
+				9BCE99B1233B079E00E8DD62 /* PetBook */,
 			);
 		};
 /* End PBXProject section */
@@ -146,9 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCE99D0233B2B3800E8DD62 /* Data.swift in Sources */,
 				9BCE99B6233B079E00E8DD62 /* AppDelegate.swift in Sources */,
+				CE050C6F234DBF7000EF99E8 /* Pet.swift in Sources */,
+				CE2CA9A3234E03AB0026B4B0 /* Home.swift in Sources */,
+				CE050C6B234DBD0000EF99E8 /* CatList.swift in Sources */,
+				CE050C71234DC44300EF99E8 /* CatDetail.swift in Sources */,
 				9BCE99B8233B079E00E8DD62 /* SceneDelegate.swift in Sources */,
-				9BCE99BA233B079E00E8DD62 /* ContentView.swift in Sources */,
+				CE2CA9A7234E0AD20026B4B0 /* RabbitList.swift in Sources */,
+				9B29BCF32344593400479BE4 /* AppView.swift in Sources */,
+				CE3FB0E12351C3B80031C2FB /* RabbitHobby.swift in Sources */,
+				CE2CA9A5234E0AC00026B4B0 /* RabbitRow.swift in Sources */,
+				CE2CA9A9234E0AEA0026B4B0 /* RabbitDetail.swift in Sources */,
+				CE050C6D234DBD3F00EF99E8 /* CatRow.swift in Sources */,
+				CE3FB0DF2351B7A30031C2FB /* CatHobby.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +330,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetBook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoBook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DemoBook/Info.plist;
@@ -292,8 +341,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.DemoBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = HW2;
+				PRODUCT_NAME = PetBook;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +353,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PetBook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoBook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DemoBook/Info.plist;
@@ -311,8 +364,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.DemoBook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = HW2;
+				PRODUCT_NAME = PetBook;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,7 +375,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BCE99AD233B079D00E8DD62 /* Build configuration list for PBXProject "DemoBook" */ = {
+		9BCE99AD233B079D00E8DD62 /* Build configuration list for PBXProject "PetBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BCE99C4233B07A100E8DD62 /* Debug */,
@@ -330,7 +384,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BCE99C6233B07A100E8DD62 /* Build configuration list for PBXNativeTarget "DemoBook" */ = {
+		9BCE99C6233B07A100E8DD62 /* Build configuration list for PBXNativeTarget "PetBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BCE99C7233B07A100E8DD62 /* Debug */,
